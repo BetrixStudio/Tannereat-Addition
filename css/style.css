@@ -15,6 +15,10 @@ hr.solid{
     color: #FF675F;
 }
 
+.blanc {
+    color: white;
+}
+
 .px14{
     font-size: 14px;
 }
@@ -35,4 +39,47 @@ hr.solid{
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.boiteAdditionHeader{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/maki_cross.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+}
+
+.boiteAdditionUser{
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boiteAdditionUserName{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boiteAdditionUserDetailsMenu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.boiteAdditionUserSousTotaux{
+    display: flex;
+    justify-content: end;
+}
+
+.boiteAdditionTotauxSousTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boiteCommander{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
