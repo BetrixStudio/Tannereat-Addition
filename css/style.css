@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap');
+
+body{
+    font-family: Manrope;
+    background-color: #FF675F;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr.solid{
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.rouge{
+    color: #FF675F;
+}
+
+.px14{
+    font-size: 14px;
+}
+
+.px16{
+    font-size: 16px;
+}
+
+.px18{
+    font-size: 18px;
+}
+
+.px20{
+    font-size: 20px;
+}
+
+.boiteAddition{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
